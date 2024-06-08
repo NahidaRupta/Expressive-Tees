@@ -1,3 +1,19 @@
+/* Ensure the form doesn't stretch the entire width */
 .navbar {
-    background-color: black;
+    background-color: white;
+    padding: 3rem,2rem;
+    height: 0rem;
+    min-height: 12vh;
 }
+.navbar .navbar-brand a {
+    padding: 1rem,0;
+    display: block;
+    text-decoration: none;
+}
+.navbar .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+    color: rgb(237, 166, 34);
+}
+
+  
